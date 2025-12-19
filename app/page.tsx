@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import Summary from "@/components/Summary";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
-import Education from "@/components/Education";
+import Experience from "@/components/Experience";
 
 export default function Resume() {
   return (
@@ -12,7 +12,7 @@ export default function Resume() {
       <Summary summary={data.summary} />
       <Skills skills={data.skills} />
       <Projects projects={data.projects} />
-      <Education education={data.education} />
+      <Experience experience={data.experience} />
     </div>
   );
 }

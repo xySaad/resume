@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import education_impact from "@/data/education/";
+import experience_impact from "@/data/experience/";
 
 const JWT =
   "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI0MTg1IiwiaWF0IjoxNzY2MTc5NTkyLCJpcCI6IjE3Mi4xOC4wLjIiLCJleHAiOjE3NjYyNjU5OTIsImh0dHBzOi8vaGFzdXJhLmlvL2p3dC9jbGFpbXMiOnsieC1oYXN1cmEtYWxsb3dlZC1yb2xlcyI6WyJ1c2VyIl0sIngtaGFzdXJhLWNhbXB1c2VzIjoie30iLCJ4LWhhc3VyYS1kZWZhdWx0LXJvbGUiOiJ1c2VyIiwieC1oYXN1cmEtdXNlci1pZCI6IjQxODUiLCJ4LWhhc3VyYS10b2tlbi1pZCI6IjY5NDAzNDFmLTg5NzAtNDQxYy1iYWM3LTA3Mjc1NjZhMDc0YyJ9fQ.63i5gkVYd8DLXOu1-PuJG7tkzH8ak4csv-3z4qSrPB4";
@@ -17,7 +17,7 @@ const QUERY = `{
   }
 }`;
 
-export default function Education({ education }) {
+export default function Experience({ experience }) {
   const [data, setData] = useState({});
 
   useEffect(() => {
@@ -59,9 +59,9 @@ export default function Education({ education }) {
 
   return (
     <section className="border-b border-border py-6">
-      <h2 className="mb-4 text-xl font-bold">Education</h2>
-      {education.map((e) => {
-        const impact = education_impact[e.id];
+      <h2 className="mb-4 text-xl font-bold">Experience</h2>
+      {experience.map((e) => {
+        const impact = experience_impact[e.id];
         return (
           <div key={e.role} className="mb-6">
             <div className="flex justify-between">
