@@ -1,0 +1,53 @@
+{
+  "profile": {
+    "name": "Saad RMAIDA",
+    "title": "Full-Stack Developer",
+    "picture": "/picture.jpg",
+    "contact": {
+      "email": "saad@rmaida.com",
+      "phone": "+212 722-544028",
+      "location": "Oujda, MA",
+      "linkedin": "in/xsrm",
+      "github": "xySaad"
+    }
+  },
+  "summary": [
+    "Full-Stack developer, I like to convert ideas into live solutions by leveraging my creativity and skills in applications, automation tools and bots that simplifies a process and saves time.",
+    "I am obsessive about performance optimization, from parsers and compilers to creating my own technologies."
+  ],
+  "skills": {
+    "Programming Languages": ["Java", "JavaScript", "Go", "Rust", "Bash"],
+    "APIs and Protocols": ["REST", "GraphQL", "WebSocket", "TCP", "OAuth 2.0"],
+    "Web Development": ["React", "SolidJS", "Node.js", "Svelte", "HTML", "CSS"],
+    "Database and Tools": ["PostgreSQL", "SQLite", "Docker", "Unix", "Git"]
+  },
+  "projects": [
+    {
+      "name": "01Auth",
+      "description": "An OAuth service for Zone01 related platforms",
+      "tech": ["Go", "OAuth", "GraphQL", "JWT"],
+      "highlight": true
+    },
+    {
+      "name": "BindJS",
+      "description": "A compiled-first framework that uses fine-grained reactivity and data-binding.",
+      "tech": ["JavaScript", "DOM", "Reactivity"]
+    },
+    {
+      "name": "Bomberman",
+      "description": "High performance web-based multiplayer game with real-time chat.",
+      "tech": ["JavaScript", "DOM", "Reactivity"]
+    }
+  ],
+  "education": [
+    {
+      "role": "Junior Developer",
+      "place": "Zone01 Oujda",
+      "period": "September 2024 - February 2026",
+      "points": [
+        "Intensive project-based and peer-to-peer driven learning",
+        "Developed leadership skills, and working in a team"
+      ]
+    }
+  ]
+}
