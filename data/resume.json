@@ -26,21 +26,25 @@
       "name": "01Auth",
       "description": "An OAuth service for Zone01 related platforms",
       "tech": ["Go", "OAuth", "GraphQL", "JWT"],
-      "highlight": true
+      "link": "https://github.com/xySaad/01auth"
     },
     {
       "name": "BindJS",
+      "highlight": "UI Framework",
       "description": "A compiled-first framework that uses fine-grained reactivity and data-binding.",
-      "tech": ["JavaScript", "DOM", "Reactivity"]
+      "tech": ["JavaScript", "DOM"],
+      "link": "https://github.com/xySaad/bindjs"
     },
     {
       "name": "Bomberman",
       "description": "High performance web-based multiplayer game with real-time chat.",
-      "tech": ["JavaScript", "DOM", "Reactivity"]
+      "tech": ["JavaScript", "BindJS", "WebSocket", "REST"],
+      "link": "https://github.com/xySaad/bomberman"
     }
   ],
   "education": [
     {
+      "id": "zone01",
       "role": "Junior Developer",
       "place": "Zone01 Oujda",
       "period": "September 2024 - February 2026",
